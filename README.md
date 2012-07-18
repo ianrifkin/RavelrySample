@@ -9,7 +9,10 @@ Dependencies: LWP::Simple, Getopt::Long, JSON, /usr/sbin/sendmail;
 
 Command line perl script that will output a custom reminder 
 message about what projects you have to work on and to come
-back to ravelry.com. It takes two arguments: the user and the user's API key.
+back to ravelry.com. It takes three arguments:
+     --user=ravelry username
+     --key=ravelry api for user
+     --email=any email address to send the message
 
 This could be scheduled as a cron job to email the results regularly.
 
